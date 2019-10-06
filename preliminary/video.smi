@@ -1,0 +1,231 @@
+<SAMI>
+<HEAD>
+<STYLE TYPE="text/css">
+<!--
+    P {
+        margin-left: 16pt; 
+        margin-right: 16pt; 
+        margin-bottom: 16pt; 
+        margin-top: 16pt;
+        text-align: center; 
+        font-size: 18pt; 
+        font-family: arial; 
+        font-weight: 
+        bold; color: #f0f0f0;
+    }
+-->
+</STYLE>
+</HEAD>
+
+<BODY>
+    <!-- MAIN -->
+    <SYNC Start=0 End=5000><P>
+        https://tgrid.dev
+    </P></SYNC>
+
+    <!-- INDEX -->
+    <SYNC Start=6000 End=9000><P>
+        TGrid, made by 남정호 in 아이지넷
+    </P></SYNC>
+
+    <!-------------------------------------------------------------
+        INTRODUCTION
+    -------------------------------------------------------------->
+    <!-- SECTION -->
+    <SYNC Start=11000 End=14000><P>
+        TGrid 에 대해 소개하겠습니다.
+    </P></SYNC>
+
+    <!-- TGRID -->
+    <SYNC Start=15000 End=22000><P>
+        TGrid 는 TypeScript 로 Grid Computing 시스템을 구현할 때 사용하는 프레임워크입니다.
+    </P></SYNC>
+
+    <!-- GRID COMPUTING -->
+    <SYNC Start=23000 End=27000><P>
+        Make computers a (virutal) computer
+    </P></SYNC>
+
+    <SYNC Start=27000 End=31000><P>
+        TGrid 가 말하는 Grid Computing 이란, 네트워크 통신으로 연동되는 여러 대의 컴퓨터를, 
+    </P></SYNC>
+
+    <SYNC Start=31000 End=35000><P>
+        단 한 대의 가상 컴퓨터로 변환할 수 있는 것을 말합니다.
+    </P></SYNC>
+
+    <SYNC Start=36000 End=41000><P>
+        그리고 이 가상 컴퓨터에서 동작하는 프로그램 코드는, 
+    </P></SYNC>
+    
+    <SYNC Start=41000 End=46000><P>
+        실제 단일 컴퓨터에서의 프로그램 코드와 동일해야 합니다.
+    </P></SYNC>
+
+    <!-- REMOTE FUNCTION CALL -->
+    <SYNC Start=47000 End=51000><P>
+        이 Grid Computing 을 실현하기 위하여, TGrid 는 Remote Function Call 이란 솔루션을 제시합니다.
+    </P></SYNC>
+
+    <SYNC Start=51000 End=54000><P>
+        문자 그대로 원격 컴퓨터의 객체와 함수를 직접 호출할 수 있다는 얘기입니다.
+    </P></SYNC>
+
+    <SYNC Start=54000 End=58000><P>
+        원격 시스템 간에 객체와 함수를 마음대로 호출할 수 있다는 얘기는, 
+    </P></SYNC>
+
+    <SYNC Start=58000 End=61000><P>
+        곧 하나의 가상 컴퓨터로 통합하는데 성공하였음을 의미합니다.
+    </P></SYNC>
+
+    <SYNC Start=62000 End=67000><P>
+        Remote Function Call 이 무엇인지, 눈으로 직접 보시죠.
+    </P></SYNC>
+
+    <SYNC Start=68000 End=73000><P>
+        지금 보시는 코드는, 사칙 연산 계산기를 사용하는 프로그램입니다.
+    </P></SYNC>
+
+    <SYNC Start=73000 End=77000><P>
+        단일 컴퓨터에서 동작하는 프로그램이죠.
+    </P></SYNC>
+
+    <SYNC Start=78000 End=83000><P>
+        이어서 보시는 코드는, 원격 계산기를 사용하는 코드입니다.
+    </P></SYNC>
+
+    <SYNC Start=83000 End=87000><P>
+        클라이언트가 서버에 접속하여, 원격 계산기 객체의 함수들을 직접 호출하고 있습니다.
+    </P></SYNC>
+
+    <SYNC Start=88000 End=92000><P>
+        두 코드 간에 무엇이 같이 무엇이 다른지 아시겠습니까?
+    </P></SYNC>
+
+    <SYNC Start=92000 End=95000><P>
+        잘 모르겠다면 다시 한 번 살펴보죠. 
+    </P></SYNC>
+
+    <SYNC Start=95000 End=98000><P>
+        스포) 두 프로그램의 비즈니스 로직 코드가 동일합니다.
+    </P></SYNC>
+
+    <SYNC Start=102000 End=110000><P>
+        단일 컴퓨터에서 동작하는 프로그램의 코드
+    </P></SYNC>
+
+    <SYNC Start=111000 End=115000><P>
+        그리고 네트워크 시스템에서의 코드
+    </P></SYNC>
+
+    <SYNC Start=115000 End=120000><P>
+        무엇이 같고 무엇이 다른 지, 감이 오십니까?
+    </P></SYNC>
+
+    <SYNC Start=121000 End=126000><P>
+        TGrid 를 사용하면, Business Logic 코드가 언제나 동일하다.
+    </P></SYNC>
+
+    <SYNC Start=126000 End=131000><P>
+        이 것이 바로 TGrid 가 말하는 진정한 Grid Computing 입니다.
+    </P></SYNC>
+
+    <!-------------------------------------------------------------
+        TUTORIAL
+    -------------------------------------------------------------->
+    <!-- SECTION -->
+    <SYNC Start=133000 End=138000><P>
+        TGrid 의 자랑, 체계적인 가이드 문서
+    </P></SYNC>
+
+    <!-- GUIDE DOCUMENTS -->
+    <SYNC Start=139000 End=146000><P>
+        TGrid 는 입문자를 위해 체계적인 가이드 문서를 제공합니다.
+    </P></SYNC>
+
+    <SYNC Start=147000 End=151000><P>
+        TGrid 의 가이드 문서는 크게 세 단원으로 나뉩니다.
+    </P></SYNC>
+
+    <SYNC Start=151000 End=155000><P>
+        기초 개념을 습득할 수 있고, 예제 코드를 통해 TGrid 와 친숙해질 수 있으며,
+    </P></SYNC>
+
+    <SYNC Start=155000 End=159000><P>
+        데모 프로젝트를 통해 심화과정을 학습할 수 있습니다.
+    </P></SYNC>
+
+    <!-- LEARN FROM EXAMPLES
+    <SYNC Start=160000 End=174000><P>
+        제공되는 예제 코드는 이해하기 쉽고, 매우 재밌습니다.
+    </P></SYNC>
+
+    <SYNC Start=175000 End=178000><P>
+        단지 예제 코드를 읽어보고, 따라 타이핑 하는 것만으로도
+    </P></SYNC>
+
+    <SYNC Start=178000 End=181000><P>
+        TGrid 의 핵심 개념들을 능히 이해하고 익힐 수 있습니다.
+    </P></SYNC>
+
+    <!-- DEMO PROJECTS -->
+    <SYNC Start=182000 End=187000><P>
+        심화 과정으로써 데모 프로젝트들을 제공합니다.
+    </P></SYNC>
+
+    <SYNC Start=188000 End=199000><P>
+        난이도가 프로젝트 순서에 따라 체계적으로 올라갑니다.
+    </P></SYNC>
+
+    <!-------------------------------------------------------------
+        BENEFITS
+    -------------------------------------------------------------->
+    <!-- SECTION -->
+    <SYNC Start=201000 End=206000><P>
+        TGrid 를 쓰면 어떤 이점이 있을까요?
+    </P></SYNC>
+
+    <!-- EASY DEVELOPMENT
+    <SYNC Start=207000 End=217000><P>
+        첫째는 바로, 네트워크 시스템을 누구나 쉽게 개발할 수 있다는 것입니다.
+    </P></SYNC>
+
+    <SYNC Start=218000 End=228000><P>
+        쓰잘데없는 것은 모조리 잊어버리시고, 오로지 핵심에만 집중하십시오.
+    </P></SYNC>
+
+    <SYNC Start=229000 End=236000><P>
+        TGrid 를 사용하시면, 그 까다롭고 어려운 Network Refactoring 조차도 매우 쉽게 해결할 수 있습니다.
+    </P></SYNC>
+
+    <!-- SAFE IMPLEMENTATION -->
+    <SYNC Start=237000 End=247000><P>
+        두 번째는 바로 안전한 네트워크 시스템을 만들 수 있다는 것입니다.
+    </P></SYNC>
+
+    <SYNC Start=248000 End=254000><P>
+        네트워크 연동 시스템도 컴파일러의 혜택을 누릴 수 있습니다.
+    </P></SYNC>
+
+    <SYNC Start=254000 End=258000><P>
+        이 것은 2019 년 현재, 오로지 TGrid 에만 가능한 것입니다.
+    </P></SYNC>
+
+    <!-- BLOCKCHAIN -->
+    <SYNC Start=259000 End=269000><P>
+        마지막으로 블록체인을 쉽게 개발할 수 있습니다.
+    </P></SYNC>
+
+    <SYNC Start=270000 End=280000><P>
+        블록체인 역시, 복잡한 것은 잊어버리시고, 오로지 핵심에만 집중하십시오.
+    </P></SYNC>
+
+    <!-------------------------------------------------------------
+        THE END
+    -------------------------------------------------------------->
+    <SYNC Start=282000 End=285000><P>
+        감사합니다. TGrid – https://tgrid.dev
+    </P></SYNC>
+</BODY>
+</SAMI>
