@@ -4,6 +4,8 @@
   - TGrid
 
 ### 1.2. SW 개요
+![Logo](../../assets/images/logo.png)
+
 TGrid: **T**ypescript **Grid** computing framework.
 
 **TGrid** 는 그 이름 그대로, TypeScript에서 [Grid Computing](https://tgrid.dev/ko/tutorial/concepts.html#11-grid-computing) 시스템을 구현하는 데 유용하게 사용할 수 있는 Framework 입니다. **TGrid** 와 그것의 핵심 개념인 [Remote Function Call](https://tgrid.dev/ko/tutorial/concepts.html#12-remote-function-call) 을 사용하면, 여러 대의 컴퓨터를 단 한 대의 가상 컴퓨터로 만들 수 있습니다.
@@ -121,6 +123,8 @@ Grid Market 이 무엇인지 간단히 설명하자면, Grid Computing 에 필�
   - Consumer: Supplier 의 연산력을 구매하여 이를 사용함
   - Supplier: Consumer 에게 자신의 연산력을 제공함
   - Monitor: Market 에서 이루어지는 모든 거래행위를 들여다 봄
+
+![Grid Market](../../assets/images/grid-market.png)
 
 그리고 **Grid Market** 역시, 데모 사이트로 직접 접속하시어 사용하실 수 있습니다.
 
