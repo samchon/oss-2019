@@ -20,7 +20,7 @@
 <BODY>
     <!-- MAIN -->
     <SYNC Start=0 End=5000><P>
-        https://tgrid.dev
+        https://tgrid.com
     </P></SYNC>
 
     <!-- INDEX -->
@@ -225,7 +225,7 @@
         THE END
     -------------------------------------------------------------->
     <SYNC Start=282000 End=285000><P>
-        감사합니다. TGrid – https://tgrid.dev
+        감사합니다. TGrid – https://tgrid.com
     </P></SYNC>
 </BODY>
 </SAMI>

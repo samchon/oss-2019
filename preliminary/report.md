@@ -77,7 +77,7 @@
 TGrid
 
 ### 프로그램 등록 URL
-  - 가이드 문서: https://tgrid.dev/
+  - 가이드 문서: https://tgrid.com/
     - 가이드 문서 저장소: https://github.com/samchon/tgrid.book
   - 프로젝트 저장소: https://github.com/samchon/tgrid
     - 기반 라이브러리 저장소: https://github.com/samchon/tstl
@@ -108,8 +108,8 @@ TGrid는 그 이름 그대로, TypeScript에서 Grid Computing 시스템을 구�
     - 코딩 도구: Visual Studio Code
     - 배포 장소: GitHub, NPM Modules
   - 매뉴얼
-    - API Documents: https://tgrid.dev/api 
-    - Guide Documents: https://tgrid.dev
+    - API Documents: https://tgrid.com/api 
+    - Guide Documents: https://tgrid.com
 
 
 
@@ -128,20 +128,20 @@ TGrid는 그 이름 그대로, TypeScript에서 Grid Computing 시스템을 구�
 
 **TGrid** 는 그 이름 그대로, TypeScript 에서 [Grid Computing](#312-grid-computing) 시스템을 구현하는 데 유용하게 사용할 수 있는 Framework 입니다. **TGrid** 와 그것의 핵심 개념인 [Remote Function Call](#313-remote-function-call) 을 사용하시거든, 여러분께서는 여러 대의 컴퓨터를 <u>단 한 대의 가상 컴퓨터</u>로 만드실 수 있습니다. 그것이 비록 수천 ~ 수만 대에 달할 지라도 말입니다.
 
-여타 **TGrid** 에 대한 자세한 내용은 아래 링크들을 참고해주세요. 특히 아래 링크 중에서 [가이드 문서](https://tgrid.dev/ko) 의 [Basic Concepts](https://tgrid.dev/ko/tutorial/concepts.html) 나 [Learn from Examples](https://tgrid.dev/ko/tutorial/examples.html) 단원만큼은, **TGrid** 를 처음 접하시는 분이시라면, 꼭 한 번 읽어보시기를 권해드립니다.
+여타 **TGrid** 에 대한 자세한 내용은 아래 링크들을 참고해주세요. 특히 아래 링크 중에서 [가이드 문서](https://tgrid.com/ko) 의 [Basic Concepts](https://tgrid.com/ko/tutorial/concepts.html) 나 [Learn from Examples](https://tgrid.com/ko/tutorial/examples.html) 단원만큼은, **TGrid** 를 처음 접하시는 분이시라면, 꼭 한 번 읽어보시기를 권해드립니다.
 
   - Repositories
     - [GitHub Repository](https://github.com/samchon/tgrid)
     - [NPM Repository](https://www.npmjs.com/package/tgrid)
   - Documents
-    - [API Documents](https://tgrid.dev/api)
-    - [**Guide Documents**](https://tgrid.dev)
-      - [English](https://tgrid.dev/en)
-      - [한국어](https://tgrid.dev/ko)
+    - [API Documents](https://tgrid.com/api)
+    - [**Guide Documents**](https://tgrid.com)
+      - [English](https://tgrid.com/en)
+      - [한국어](https://tgrid.com/ko)
     - [Release Notes](https://github.com/samchon/tgrid/releases)
 
 #### 3.1.2. Grid Computing
-![Grid Computing](https://tgrid.dev/assets/images/concepts/grid-computing.png)
+![Grid Computing](https://tgrid.com/assets/images/concepts/grid-computing.png)
 
 > Computers be a (virtual) computer
 
@@ -154,7 +154,7 @@ TGrid는 그 이름 그대로, TypeScript에서 Grid Computing 시스템을 구�
 
 **TGrid** 와 `Remote Function Call` 을 이용하면 원격 시스템의 객체와 함수를 마치 내 것인양 사용할 수 있다, 이 문장이 무엇을 의미할까요? 맞습니다, 원격 시스템의 객체와 함수를 직접 호출할 수 있다는 것은 곧, 현 시스템과 원격 시스템이 <u>하나의 가상 컴퓨터로 통합</u>되었다는 것을 의미합니다. 하나의 컴퓨터에 탑재된 <u>단일 프로그램</u>이니까, 객체간 함수도 호출할 수 있고 뭐 그런 것 아니겠습니까? 
 
-하지만 **TGrid** 가 말하는 진정한 [Grid Computing](#312-grid-computing) 이 무슨 개념이니, `Remote Function Call` 이 어떤 이론이니... 백날 설명만 들어봐야 뭐합니까? 백문이 불여일견, 이쯤에서 실제 프로그램 코드를 한 번 봐야겠죠? 아래 예제 코드에 대하여 보다 자세히 알아보고 싶으시다면, [가이드 문서](https://tgrid.dev/ko) 의 [Learn from Examples](https://tgrid.dev/ko/tutorial/examples.html) 단원을 참고해주세요.
+하지만 **TGrid** 가 말하는 진정한 [Grid Computing](#312-grid-computing) 이 무슨 개념이니, `Remote Function Call` 이 어떤 이론이니... 백날 설명만 들어봐야 뭐합니까? 백문이 불여일견, 이쯤에서 실제 프로그램 코드를 한 번 봐야겠죠? 아래 예제 코드에 대하여 보다 자세히 알아보고 싶으시다면, [가이드 문서](https://tgrid.com/ko) 의 [Learn from Examples](https://tgrid.com/ko/tutorial/examples.html) 단원을 참고해주세요.
 
 ```typescript
 import { WebConnector } from "tgrid/protocols/web/WebConnector";
@@ -217,7 +217,7 @@ main();
 > ```
 
 ### 3.2. Components
-![Sequence Diagram](https://tgrid.dev/assets/images/diagrams/sequence.png)
+![Sequence Diagram](https://tgrid.com/assets/images/diagrams/sequence.png)
 
 #### 3.2.1. Communicator
 Communicates with Remote System.
@@ -358,43 +358,43 @@ type Driver<ICalculator> =
 
  Class           | Web Browser | NodeJS | Usage
 -----------------|-------------|--------|---------------------------
-[WebServer](https://tgrid.dev/api/classes/tgrid_protocols_web.webserver.html)    | X           | O      | 웹소켓 서버 개설
-[WebAcceptor](https://tgrid.dev/api/classes/tgrid_protocols_web.webacceptor.html)  | X           | O      | 클라이언트와의 [RFC](#313-remote-function-call) 통신 담당
-[WebConnector](https://tgrid.dev/api/classes/tgrid_protocols_web.webconnector.html) | O           | O      | 웹소켓 서버로 접속하여 [RFC](#313-remote-function-call) 통신
+[WebServer](https://tgrid.com/api/classes/tgrid_protocols_web.webserver.html)    | X           | O      | 웹소켓 서버 개설
+[WebAcceptor](https://tgrid.com/api/classes/tgrid_protocols_web.webacceptor.html)  | X           | O      | 클라이언트와의 [RFC](#313-remote-function-call) 통신 담당
+[WebConnector](https://tgrid.com/api/classes/tgrid_protocols_web.webconnector.html) | O           | O      | 웹소켓 서버로 접속하여 [RFC](#313-remote-function-call) 통신
 
-**TGrid** 의 `protocols.web` 모듈에는 이처럼 딱 3 개의 클래스만이 존재합니다. 제일 먼저 웹소켓 서버를 개설하는 데 필요한 [WebServer](https://tgrid.dev/api/classes/tgrid_protocols_web.webserver.html) 클래스가 있으며, 웹소켓 서버에 접속한 각 클라이언트와의 [RFC](#313-remote-function-call) 통신을 담당하는 [WebAcceptor](https://tgrid.dev/api/classes/tgrid_protocols_web.webacceptor.html) 클래스가 있습니다. 그리고 마지막으로 클라이언트에서 웹소켓 서버에 접속할 때 사용하는 [WebConnector](https://tgrid.dev/api/classes/tgrid_protocols_web.webconnector.html) 클래스가 있습니다.
+**TGrid** 의 `protocols.web` 모듈에는 이처럼 딱 3 개의 클래스만이 존재합니다. 제일 먼저 웹소켓 서버를 개설하는 데 필요한 [WebServer](https://tgrid.com/api/classes/tgrid_protocols_web.webserver.html) 클래스가 있으며, 웹소켓 서버에 접속한 각 클라이언트와의 [RFC](#313-remote-function-call) 통신을 담당하는 [WebAcceptor](https://tgrid.com/api/classes/tgrid_protocols_web.webacceptor.html) 클래스가 있습니다. 그리고 마지막으로 클라이언트에서 웹소켓 서버에 접속할 때 사용하는 [WebConnector](https://tgrid.com/api/classes/tgrid_protocols_web.webconnector.html) 클래스가 있습니다.
 
-이 중에 [Communicator](#321-communicator) 클래스는 [WebAcceptor](https://tgrid.dev/api/classes/tgrid_protocols_web.webacceptor.html) 와 [WebConnector](https://tgrid.dev/api/classes/tgrid_protocols_web.webconnector.html) 클래스입니다. [WebServer](https://tgrid.dev/api/classes/tgrid_protocols_web.webserver.html) 는 분명 웹소켓 서버를 개설할 수 있고 클라이언트가 접속할 때마다 매번 [WebAcceptor](https://tgrid.dev/api/classes/tgrid_protocols_web.webacceptor.html) 오브젝트를 새로이 생성해주기는 하지만, [Communicator](#321-communicator) 클래스는 결코 아닙니다.
+이 중에 [Communicator](#321-communicator) 클래스는 [WebAcceptor](https://tgrid.com/api/classes/tgrid_protocols_web.webacceptor.html) 와 [WebConnector](https://tgrid.com/api/classes/tgrid_protocols_web.webconnector.html) 클래스입니다. [WebServer](https://tgrid.com/api/classes/tgrid_protocols_web.webserver.html) 는 분명 웹소켓 서버를 개설할 수 있고 클라이언트가 접속할 때마다 매번 [WebAcceptor](https://tgrid.com/api/classes/tgrid_protocols_web.webacceptor.html) 오브젝트를 새로이 생성해주기는 하지만, [Communicator](#321-communicator) 클래스는 결코 아닙니다.
 
-더불어 주의하셔야 할 게 하나 있습니다. 웹 브라우저는 스스로 웹소켓 서버를 개설할 수 없으며, 오로지 클라이언트의 역할만을 수행할 수 있다는 것입니다. 따라서 **TGrid** 를 이용하여 웹 어플리케이션을 만드실 경우, 오직 [WebConnector](https://tgrid.dev/api/classes/tgrid_protocols_web.webconnector.html) 클래스만을 사용할 수 있습니다.
+더불어 주의하셔야 할 게 하나 있습니다. 웹 브라우저는 스스로 웹소켓 서버를 개설할 수 없으며, 오로지 클라이언트의 역할만을 수행할 수 있다는 것입니다. 따라서 **TGrid** 를 이용하여 웹 어플리케이션을 만드실 경우, 오직 [WebConnector](https://tgrid.com/api/classes/tgrid_protocols_web.webconnector.html) 클래스만을 사용할 수 있습니다.
 
 #### 3.3.2. Workers
 **TGrid** 는 *Worker* 및 *SharedWorker* 프로토콜을 지원합니다.
 
  Class                    | Web Browser | NodeJS | Usage
 --------------------------|-------------|--------|---------------------------
-[WorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerconnector.html)       | O           | O      | Worker 를 생성하고 이에 접속하여 [RFC](#313-remote-function-call) 통신
-[WorkerServer](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerserver.html)          | O           | O      | Worker 그 자체. 클라이언트와 [RFC](#313-remote-function-call) 통신
-[SharedWorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) | O           | X      | SharedWorker 에 접속하여 [RFC](#313-remote-function-call) 통신
-[SharedWorkerServer](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkerserver.html)    | O           | X      | SharedWorker 그 자체, 서버 개설
-[SharedWorkerAcceptor](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkeracceptor.html)  | O           | X      | 클라이언트와의 [RFC](#313-remote-function-call) 통신을 담당
+[WorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.workerconnector.html)       | O           | O      | Worker 를 생성하고 이에 접속하여 [RFC](#313-remote-function-call) 통신
+[WorkerServer](https://tgrid.com/api/classes/tgrid_protocols_workers.workerserver.html)          | O           | O      | Worker 그 자체. 클라이언트와 [RFC](#313-remote-function-call) 통신
+[SharedWorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) | O           | X      | SharedWorker 에 접속하여 [RFC](#313-remote-function-call) 통신
+[SharedWorkerServer](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkerserver.html)    | O           | X      | SharedWorker 그 자체, 서버 개설
+[SharedWorkerAcceptor](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkeracceptor.html)  | O           | X      | 클라이언트와의 [RFC](#313-remote-function-call) 통신을 담당
 
 **TGrid** 의 `protocols.workers` 모듈에 속한 클래스들은 크게 두 가지 주제로 나눌 수 있습니다. 첫 번째 주제는 *Worker* 이고, 두 번째 주제는 *SharedWorker* 입니다. 이 둘의 가장 핵심되는 차이점은 *Worker*  는 서버와 클라이언트의 대수관계가 1:1 이고, *SharedWorker* 는 1:N 이라는 것입니다.
 
-[WorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerconnector.html) 는 *Worker* 인스턴스를 생성하고, 해당 *Worker* 인스턴스가 개설한 [WorkerServer](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerserver.html) 에 접속하여 [RFC](#313-remote-function-call) 통신을 행할 수 있습니다. 그리고 [WorkerServer](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerserver.html) 는 그 고유한 특성상, 오로지 단 하나의 클라이언트만을 상대할 수 있습니다. 때문에 [WorkerServer](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerserver.html) 다른 여타 서버 클래스들과는 달리, 그 스스로가 [Communicator](#321-communicator) 클래스로써, 클라이언트 프로그램과 직접 [RFC](#313-remote-function-call) 통신을 수행합니다.
+[WorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.workerconnector.html) 는 *Worker* 인스턴스를 생성하고, 해당 *Worker* 인스턴스가 개설한 [WorkerServer](https://tgrid.com/api/classes/tgrid_protocols_workers.workerserver.html) 에 접속하여 [RFC](#313-remote-function-call) 통신을 행할 수 있습니다. 그리고 [WorkerServer](https://tgrid.com/api/classes/tgrid_protocols_workers.workerserver.html) 는 그 고유한 특성상, 오로지 단 하나의 클라이언트만을 상대할 수 있습니다. 때문에 [WorkerServer](https://tgrid.com/api/classes/tgrid_protocols_workers.workerserver.html) 다른 여타 서버 클래스들과는 달리, 그 스스로가 [Communicator](#321-communicator) 클래스로써, 클라이언트 프로그램과 직접 [RFC](#313-remote-function-call) 통신을 수행합니다.
 
-  - [WorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerconnector.html) creates a new *Worker* instance
+  - [WorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.workerconnector.html) creates a new *Worker* instance
   - The new *Worker* instance opens WorkerServer
-  - [WorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerconnector.html) and [WorkerServer](https://tgrid.dev/api/classes/tgrid_protocols_workers.workerserver.html) interact with [RFC](#313-remote-function-call)
+  - [WorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.workerconnector.html) and [WorkerServer](https://tgrid.com/api/classes/tgrid_protocols_workers.workerserver.html) interact with [RFC](#313-remote-function-call)
 
-[SharedWorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) 의 경우에는 좀 특이합니다. 지정된 파일 경로를 따라 *SharedWorker* 인스턴스를 생성하기도 하고, 먼저 생성된 *SharedWorker* 인스턴스가 존재하거든 기존의 것을 사용하기도 합니다. 어쨋든 [SharedWorkerServer](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkerserver.html) 는, 이러한 고유 특성 덕분에, 여러 클라이언트의 접속을 동시에 받아낼 수 있습니다. 따라서 *SharedWorker* 의 경우에는 앞서 [웹소켓](#331-web-socket) 때와 마찬가지로, 상호간 [RFC](#313-remote-function-call) 통신을 담당하는 [Communicator](#321-communicator) 클래스는 [SharedWorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) 와 [SharedWorkerAcceptor](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkeracceptor.html) 입니다.
+[SharedWorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) 의 경우에는 좀 특이합니다. 지정된 파일 경로를 따라 *SharedWorker* 인스턴스를 생성하기도 하고, 먼저 생성된 *SharedWorker* 인스턴스가 존재하거든 기존의 것을 사용하기도 합니다. 어쨋든 [SharedWorkerServer](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkerserver.html) 는, 이러한 고유 특성 덕분에, 여러 클라이언트의 접속을 동시에 받아낼 수 있습니다. 따라서 *SharedWorker* 의 경우에는 앞서 [웹소켓](#331-web-socket) 때와 마찬가지로, 상호간 [RFC](#313-remote-function-call) 통신을 담당하는 [Communicator](#321-communicator) 클래스는 [SharedWorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) 와 [SharedWorkerAcceptor](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkeracceptor.html) 입니다.
 
-  - [SharedWorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) creates a new or brings an existing *SharedWorker* instance.
-  - The *SharedWorker* instance opens [SharedWorkerServer](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkerserver.html) if newly created.
-  - [SharedWorkerAcceptor](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkeracceptor.html) and [SharedWorkerConnector](https://tgrid.dev/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) interact with [RFC](#313-remote-function-call)
+  - [SharedWorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) creates a new or brings an existing *SharedWorker* instance.
+  - The *SharedWorker* instance opens [SharedWorkerServer](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkerserver.html) if newly created.
+  - [SharedWorkerAcceptor](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkeracceptor.html) and [SharedWorkerConnector](https://tgrid.com/api/classes/tgrid_protocols_workers.sharedworkerconnector.html) interact with [RFC](#313-remote-function-call)
 
 > #### 왜 Worker 가 네트워크 시스템의 범주에 드나요?
-> ![Worker like Network](https://tgrid.dev/assets/images/concepts/worker-like-network.png)
+> ![Worker like Network](https://tgrid.com/assets/images/concepts/worker-like-network.png)
 > 
 > *Worker* 는 웹 브라우저에서 멀티 스레딩을 지원하기 위하여 창안된 개념입니다. 하지만, 일반적인 프로그램의 스레드와는 달리, *Worker* 는 메모리 변수를 공유할 수 없습니다. 표준적인 스레드 모델과는 달리 메모리 변수를 공유할 수 없는 *Worker* 이기에, 웹 브라우저와 Worker 간의 연동 (또는 *Worker* 인스턴스들 간의 상호 연동) 은 오로지 [MessageChannel](https://developer.mozilla.org/en-US/docs/Web/API/MessageChannel) 을 통해 바이너리 데이터를 송수신하는 방식으로밖에 구현할 수 없습니다.
 > 
@@ -412,7 +412,7 @@ type Driver<ICalculator> =
 본래 네트워크 통신을 이용한 연동시스템을 만드는 것은 제법 어려운 일입니다. 여러 대의 컴퓨터가 어우러져 공통의 작업을 해내야 하기 때문입니다. 따라서 네트워크 연동 시스템을 개발할 때는 (요구사항을 완벽하게 분석해야 하고, 유즈케이스를 완벽하게 파악해야 하며, 데이터와 네트워크 아키텍처를 완벽하게 설계해야 하고, 상호 연동 테스트를 완벽하게 해야 하는 하는등) 프로세스의 온갖 곳에 '완벽' 이라는 무시무시한 수식어가 따라다닙니다.
 
 > #### Something to Read
-> [블록체인의 Network System, 지옥으로의 발걸음](https://tgrid.dev/ko/appendix/blockchain.html#steps-to-hell)
+> [블록체인의 Network System, 지옥으로의 발걸음](https://tgrid.com/ko/appendix/blockchain.html#steps-to-hell)
 
 하지만, **TGrid** 와 [Remote Function Call](#313-remote-function-call) 을 이용하면, 진정한 [Grid Computing](#312-grid-computing) 을 실현할 수 있습니다. 네트워크로 연동된 여러 대의 컴퓨터들은 단 <u>하나의 가상 컴퓨터</u>로 치환됩니다. 심지어 이렇게 만들어진 가상 컴퓨터에서 동작하는 프로그램의 *비지니스 로직* 코드는, 실제로 단일 컴퓨터에서 동작하는 단일 프로그램의 *비지니스 로직* 코드와 동일하기까지 합니다.
 
@@ -491,15 +491,15 @@ main();
 
 그리고 그 중에 가장 대표적인 것이 바로 *performance* 이슈입니다. 본래 한 대의 컴퓨터로 처리할 수 있다고 여겨지던 작업이 있는데, 실제 서비스를 가동하여보니 워낙 연산량이 많아 이를 여러 대의 컴퓨터에 분할하여 처리해야 할 수도 있습니다. 반대로 여러 대의 컴퓨터를 준비해놨건만, 실제로는 단 한 대의 컴퓨터로도 충분했다거나 그 조차도 필요없어 해당 기능을 다른 컴퓨터에 병합해야 할 수도 있는 법입니다.
 
-![Diagram of Composite Calculator](https://tgrid.dev/assets/images/examples/composite-calculator.png) | ![Diagram of Hierarchical Calculator](https://tgrid.dev/assets/images/examples/hierarchical-calculator.png)
+![Diagram of Composite Calculator](https://tgrid.com/assets/images/examples/composite-calculator.png) | ![Diagram of Hierarchical Calculator](https://tgrid.com/assets/images/examples/hierarchical-calculator.png)
 :-------------------:|:-----------------------:
-[Composite Calculator](https://tgrid.dev/ko/tutorial/examples.html#22-remote-object-call) | [Hierarchical Calculator](https://tgrid.dev/ko/tutorial/examples.html#23-object-oriented-network)
+[Composite Calculator](https://tgrid.com/ko/tutorial/examples.html#22-remote-object-call) | [Hierarchical Calculator](https://tgrid.com/ko/tutorial/examples.html#23-object-oriented-network)
 
 이 performance 이슈로 인한 *네트워크 리팩토링* 에 대해, 간단한 예시를 들어 설명하도록 하겠습니다. 어떤 분산처리시스템에, 계산기 역할을 수행하는 서버가 한 대 있었습니다. 그런데 이 시스템을 운영해보니, 연산량이 워낙 막중하여 도저히 단 한 대의 서버로는 감당이 안 되었고, 따라서 해당 서버를 총 세 대의 서버로 분할하기로 결심합니다.
 
-  - [`scientific`](https://tgrid.dev/ko/tutorial/examples.html#hierarchical-calculatorscientificts): 공학용 계산기 서버
-  - [`statistics`](https://tgrid.dev/ko/tutorial/examples.html#hierarchical-calculatorstatisticsts): 통계용 계산기 서버
-  - [`calculator`](https://tgrid.dev/ko/tutorial/examples.html#hierarchical-calculatorcalculatorts): 메인 프레임 서버
+  - [`scientific`](https://tgrid.com/ko/tutorial/examples.html#hierarchical-calculatorscientificts): 공학용 계산기 서버
+  - [`statistics`](https://tgrid.com/ko/tutorial/examples.html#hierarchical-calculatorstatisticsts): 통계용 계산기 서버
+  - [`calculator`](https://tgrid.com/ko/tutorial/examples.html#hierarchical-calculatorcalculatorts): 메인 프레임 서버
     - 사칙 연산은 스스로 수행하고
     - 공학용과 통계용은 다른 서버에게 전달하고 그 결과값만을 중개
 
@@ -515,37 +515,37 @@ main();
 
 이를 가장 잘 보여주는 게 아래 두 예제입니다. 첫 번째는 단일 계산기의 코드이며, 두 번째는 해당 계산기 서버를 세 대의 서버로 분할했을 때의 코드입니다. 이를 보시면 쉬이 알 수 있듯이, **TGrid** 와 [Remote Function Call](#313-remote-function-call) 을 사용하시거든 네트워크 시스템 구조가 대거 변하더라도, 여러분께선 아무 염려하지 않으셔도 됩니다.
 
-  - [Demonstration - Remote Object Call](https://tgrid.dev/ko/tutorial/examples.html#22-remote-object-call)
-  - [Demonstration - Object Oriented Network](https://tgrid.dev/ko/tutorial/examples.html#23-object-oriented-network)
+  - [Demonstration - Remote Object Call](https://tgrid.com/ko/tutorial/examples.html#22-remote-object-call)
+  - [Demonstration - Object Oriented Network](https://tgrid.com/ko/tutorial/examples.html#23-object-oriented-network)
 
 
 
 
 ## 5. 기대효과 및 활용분야
 ### 5.1. Blockchain
-> 자세한 내용: [**Appendix** > **Blockchain**](https://tgrid.dev/ko/appendix/blockchain.html)
+> 자세한 내용: [**Appendix** > **Blockchain**](https://tgrid.com/ko/appendix/blockchain.html)
 
 **TGrid** 를 이용하면, 블록체인 프로젝트를 보다 쉽게 개발할 수 있습니다.
 
-블록체인 프로젝트의 개발 난이도가 높다는 것은 매우 유명한 이야기입니다. 구태여 블록체인 개발자들의 몸값이 다락같이 높아서 그런 것만이 아닙니다. 순 기술적인 관점에서 보더라도, 블록체인은 그 자체로 난이도가 매우 높습니다. 단, 기술적으로 무엇이 그렇게 어렵냐고 물었을 때, 저는 이렇게 말하고 싶습니다. 진정 어려운 것은 [Network System](https://tgrid.dev/ko/appendix/blockchain.html#2-network-system) 때문이지, [Business Logic](https://tgrid.dev/ko/appendix/blockchain.html#3-business-logic) 때문은 아니라고 말입니다.
+블록체인 프로젝트의 개발 난이도가 높다는 것은 매우 유명한 이야기입니다. 구태여 블록체인 개발자들의 몸값이 다락같이 높아서 그런 것만이 아닙니다. 순 기술적인 관점에서 보더라도, 블록체인은 그 자체로 난이도가 매우 높습니다. 단, 기술적으로 무엇이 그렇게 어렵냐고 물었을 때, 저는 이렇게 말하고 싶습니다. 진정 어려운 것은 [Network System](https://tgrid.com/ko/appendix/blockchain.html#2-network-system) 때문이지, [Business Logic](https://tgrid.com/ko/appendix/blockchain.html#3-business-logic) 때문은 아니라고 말입니다.
 
-블록체인이 사용하는 [Network System](https://tgrid.dev/ko/appendix/blockchain.html#2-network-system) 은, 기본적으로 수 만 ~ 수십 만 대의 컴퓨터가 네트워크 통신으로 어우러져 연동되는, 초대형 분산처리 시스템입니다. 그리고 이런 종류의 초대형 분산처리 시스템들은 하나같이, 어마무시한 난이도를 자랑합니다. 이를 개발하는 모든 과정에 '완벽' 이라는 무시무시한 수식어가 따라다닙니다. 완벽한 요구사항 분석, 완벽한 유즈케이스 도출, 완벽한 개념 설계와 데이터 구조 정립, 완벽한 네트워크 아키텍처 수립, 완벽한 구현과 모든 케이스를 아우르는 완벽한 테스트 프로그램 제작 등...
+블록체인이 사용하는 [Network System](https://tgrid.com/ko/appendix/blockchain.html#2-network-system) 은, 기본적으로 수 만 ~ 수십 만 대의 컴퓨터가 네트워크 통신으로 어우러져 연동되는, 초대형 분산처리 시스템입니다. 그리고 이런 종류의 초대형 분산처리 시스템들은 하나같이, 어마무시한 난이도를 자랑합니다. 이를 개발하는 모든 과정에 '완벽' 이라는 무시무시한 수식어가 따라다닙니다. 완벽한 요구사항 분석, 완벽한 유즈케이스 도출, 완벽한 개념 설계와 데이터 구조 정립, 완벽한 네트워크 아키텍처 수립, 완벽한 구현과 모든 케이스를 아우르는 완벽한 테스트 프로그램 제작 등...
 
-반면에 블록체인의 [Business Logic](https://tgrid.dev/ko/appendix/blockchain.html#3-business-logic) 은 그렇게까지 어렵지 않습니다. 블록체인의 핵심 요소를 말하라 그러면, 그 이름 그대로 "첫째는 Block 이요, Chain 입니다" 라고 대답할 수 있습니다. 이 중 Block 은 어떤 데이터를 다루냐에 관한 것이고, Chain 은 블록에 데이터를 기록함에 있어 '상호간 어떻게 합의할까' 같은 정책에 관한 것입니다. 
+반면에 블록체인의 [Business Logic](https://tgrid.com/ko/appendix/blockchain.html#3-business-logic) 은 그렇게까지 어렵지 않습니다. 블록체인의 핵심 요소를 말하라 그러면, 그 이름 그대로 "첫째는 Block 이요, Chain 입니다" 라고 대답할 수 있습니다. 이 중 Block 은 어떤 데이터를 다루냐에 관한 것이고, Chain 은 블록에 데이터를 기록함에 있어 '상호간 어떻게 합의할까' 같은 정책에 관한 것입니다. 
 
  Component | Conception     | Description
 -----------|----------------|------------------
  Block     | Data Structure | 데이터를 저장하는 방법
  Chain     | Requirements   | 합의 도출에 관한 정책
 
-만일 이 Block 과 Chain 을 단 한대의 컴퓨터에서 동작하는 단일 프로그램으로 개발한다고 생각해봅시다. 이 경우에는 그저 자료구조를 설계하여 이를 디스크에 저장할 수 있고, 정책 (요구사항) 을 분석하여 코드로 구현할 수만 있으면 됩니다. 소양있는 개발자라면 누구나 만들 수 있는 것, 그것이 바로 블록체인의 [Business Logic](https://tgrid.dev/ko/appendix/blockchain.html#3-business-logic) 입니다. 여러분도 얼마든지 해내실 수 있습니다.
+만일 이 Block 과 Chain 을 단 한대의 컴퓨터에서 동작하는 단일 프로그램으로 개발한다고 생각해봅시다. 이 경우에는 그저 자료구조를 설계하여 이를 디스크에 저장할 수 있고, 정책 (요구사항) 을 분석하여 코드로 구현할 수만 있으면 됩니다. 소양있는 개발자라면 누구나 만들 수 있는 것, 그것이 바로 블록체인의 [Business Logic](https://tgrid.com/ko/appendix/blockchain.html#3-business-logic) 입니다. 여러분도 얼마든지 해내실 수 있습니다.
 
-그리고 **TGrid** 와 [Remote Function Call](#313-remote-function-call) 을 이용하면, 진정한 [Grid Computing](#312-grid-computing) 을 실현할 수 있습니다. 네트워크로 연동된 여러 대의 컴퓨터들은 단 하나의 가상 컴퓨터로 치환됩니다. 그리고 이렇게 만든 <u>가상 컴퓨터</u>에서 동작하는 코드는, 실제 단 한 대의 컴퓨터에서 동작하는 프로그램과 그 [Business Logic](https://tgrid.dev/ko/appendix/blockchain.html#2-network-system) 코드가 동일합니다.
+그리고 **TGrid** 와 [Remote Function Call](#313-remote-function-call) 을 이용하면, 진정한 [Grid Computing](#312-grid-computing) 을 실현할 수 있습니다. 네트워크로 연동된 여러 대의 컴퓨터들은 단 하나의 가상 컴퓨터로 치환됩니다. 그리고 이렇게 만든 <u>가상 컴퓨터</u>에서 동작하는 코드는, 실제 단 한 대의 컴퓨터에서 동작하는 프로그램과 그 [Business Logic](https://tgrid.com/ko/appendix/blockchain.html#2-network-system) 코드가 동일합니다.
 
-따라서 **TGrid** 와 [Remote Function Call](#313-remote-function-call) 을 사용하면, 블록체인 프로젝트의 개발 난이도는 Network System 이 아닌 [Business Logic](https://tgrid.dev/ko/appendix/blockchain.html#2-network-system) 수준으로 확 떨어집니다. 여러분께서는 복잡한 [Network System](https://tgrid.dev/ko/appendix/blockchain.html#2-network-system) 따위 잊어버리시고, 그저 여러분이 만들고자 하시는 것의 본질, [Business Logic](https://tgrid.dev/ko/appendix/blockchain.html#3-business-logic) 그 자체에만 집중하십시오.
+따라서 **TGrid** 와 [Remote Function Call](#313-remote-function-call) 을 사용하면, 블록체인 프로젝트의 개발 난이도는 Network System 이 아닌 [Business Logic](https://tgrid.com/ko/appendix/blockchain.html#2-network-system) 수준으로 확 떨어집니다. 여러분께서는 복잡한 [Network System](https://tgrid.com/ko/appendix/blockchain.html#2-network-system) 따위 잊어버리시고, 그저 여러분이 만들고자 하시는 것의 본질, [Business Logic](https://tgrid.com/ko/appendix/blockchain.html#3-business-logic) 그 자체에만 집중하십시오.
 
 ### 5.2. Public Grid
-> 관련 프로젝트: [**Tutorial** > **Projects** > **Grid Market**](https://tgrid.dev/ko/tutorial/projects/market.html)
+> 관련 프로젝트: [**Tutorial** > **Projects** > **Grid Market**](https://tgrid.com/ko/tutorial/projects/market.html)
 
 **TGrid** 를 사용하면, [Grid Computing](#312-grid-computing) 에 필요한 자원을 불특정 다수로부터 매우 쉽게, 그리고 저렴하게 조달할 수 있습니다.
 
@@ -563,12 +563,12 @@ How  | 각 *Supplier* 가 구동할 프로그램 코드 제공  | 인터넷 브�
 
 > **TGrid** 의 기반 언어인 TypeScript 의 컴파일 결과물은 JavaScript 파일이며, JavaScript 는 스크립트 언어이기에 동적 실행이 가능합니다. 따라서 *Consumer* 가 건네준 프로그램 코드를 Supplier 가 그대로 실행하는 것 또한 가능합니다.
 
-![Grid Market](https://tgrid.dev/assets/images/projects/market/actors.png)
+![Grid Market](https://tgrid.com/assets/images/projects/market/actors.png)
 
-그리고 이러한 *Public Grid* 의 가장 전형적인 사례 중 하나가 바로, TGrid 에서 데모 프로젝트로 제공하는 [Grid Market](https://tgrid.dev/ko/tutorial/projects/market.html) 입니다. 이 데모 프로젝트에서도 *Consumer* 는 Grid Computing 시스템을 구성하기 위하여 *Supplier* 의 자원을 빌려다 쓰며, *Supplier* 는 인터넷 브라우저의 특정 URL 에 접속하는 것만으로도 *Consumer* 에게 자신의 자원을 제공할 수 있습니다. 
-물론 [Grid Market](https://tgrid.dev/ko/tutorial/projects/market.html) 에서도 여전히, *Supplier* 가 실행할 프로그램은 *Consumer* 가 제공합니다.
+그리고 이러한 *Public Grid* 의 가장 전형적인 사례 중 하나가 바로, TGrid 에서 데모 프로젝트로 제공하는 [Grid Market](https://tgrid.com/ko/tutorial/projects/market.html) 입니다. 이 데모 프로젝트에서도 *Consumer* 는 Grid Computing 시스템을 구성하기 위하여 *Supplier* 의 자원을 빌려다 쓰며, *Supplier* 는 인터넷 브라우저의 특정 URL 에 접속하는 것만으로도 *Consumer* 에게 자신의 자원을 제공할 수 있습니다. 
+물론 [Grid Market](https://tgrid.com/ko/tutorial/projects/market.html) 에서도 여전히, *Supplier* 가 실행할 프로그램은 *Consumer* 가 제공합니다.
 
-다만, [Grid Market](https://tgrid.dev/ko/tutorial/projects/market.html) 에 특이사항이 하나 있다면, 그것은 바로 *Consumer* 가 *Supplier* 의 자원을 가져다 쓰는 데에 대가가 따른다는 것입니다. 더불어 중개시장 *Market* 이 존재하여, *Consumer* 와 *Supplier* 간의 매칭을 알선하고 그 대가로 일정 수수료를 징수합니다.
+다만, [Grid Market](https://tgrid.com/ko/tutorial/projects/market.html) 에 특이사항이 하나 있다면, 그것은 바로 *Consumer* 가 *Supplier* 의 자원을 가져다 쓰는 데에 대가가 따른다는 것입니다. 더불어 중개시장 *Market* 이 존재하여, *Consumer* 와 *Supplier* 간의 매칭을 알선하고 그 대가로 일정 수수료를 징수합니다.
 
   - `Market`: 자원을 사고팔 수 있는 중개 시장
   - `Consumer`: *Supplier* 의 자원을 구매하여 이를 사용함
